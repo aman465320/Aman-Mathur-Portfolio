@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-animation: slide-in-bck-center 1s ease-in-out both;
+  animation: slide-in-bck-center 1s ease-in-out both;
+}
+.navvbar {
+  background-color: #110921;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navvbar-div a,
+.NavbarLink {
+  color: white;
+  font-family: "Fredoka One", cursive;
+  font-weight: 100;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-list a {
+  color: whitesmoke;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-list a:hover {
+  text-decoration: underline;
+  color: #c874d9;
+  transition: all 1s ease-out 0s;
+}
+
+#myName {
+  color: #c874d9;
+}
+section,
+footer {
+  color: white;
+  font-family: "Fredoka One", cursive;
+  font-weight: 100;
+}
+
+footer {
+  background-color: #0a0416;
+}
+
+.footerCols,
+.home-main,
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container span,
+.intro-heading {
+  color: #d261e9;
+}
+
+.intro-heading {
+  margin-top: 200px;
+}
+
+.text-container,
+.card-div,
+.card-body,
+.resume-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.img-container img {
+  border-radius: 50%;
+}
+
+.intro-description {
+  font-size: large;
+}
+
+.about-heading {
+  text-decoration: underline;
+}
+
+#education-div {
+  border: 1px solid white;
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459);
+  width: 70%;
+  height: 18rem;
+}
+#education-div:hover {
+  transform: scale(1.1);
+  transition: all 1s ease-in-out;
+}
+.card-body {
+  font-size: 2vw + 3px;
+}
+#card-img-top {
+  width: 200px;
+}
+.resume-button {
+  text-decoration: none;
+}
+.resume-container {
+  height: 70vh;
+}
+.resume-link {
+  text-decoration: none;
+  color: #110921;
+}
+.resume-button a:hover {
+  color: #110921;
+}
+.navlink-logo {
+  color: #dab6fc;
+}
+
+.navbar-nav > .active > a {
   color: white;
+  /* border-bottom: 1px solid white; */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.avatar-img img{
+  border-radius: 50%;
+  width: 250px;
+  /* border: 2px solid rgba(119, 53, 136, 0.459); */
+box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459);
 }
