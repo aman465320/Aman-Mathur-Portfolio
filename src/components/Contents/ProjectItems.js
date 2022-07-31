@@ -18,7 +18,7 @@ const ProjectItems = [
   {
     name: "Car Rental Website",
     imgLink: require("../Icons/Project-Images/car-rental-website.png"),
-    link: "https://github.com/aman465320/Car-Rental-App",
+    link: "https://the-car-rental-app.herokuapp.com/",
   },
   {
     name: "Weather App",
