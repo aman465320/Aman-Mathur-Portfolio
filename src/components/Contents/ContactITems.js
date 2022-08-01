@@ -6,7 +6,7 @@ const ContactITems = (props) => {
       <a
         href={props.link}
         style={{ color: "white", textDecoration: "none", fontSize: "2rem" }}
-        className="mx-3"
+        className="mx-2"
         target="_blank"
       >
         {" "}
