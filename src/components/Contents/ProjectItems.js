@@ -23,7 +23,7 @@ const ProjectItems = [
   {
     name: "Weather App",
     imgLink: require("../Icons/Project-Images/weather-app.png"),
-    link: "https://github.com/aman465320/Weather-App",
+    link: "https://the-getweather-app.herokuapp.com/",
   },
   {
     name: "Analog Clock",
