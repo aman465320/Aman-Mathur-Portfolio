@@ -1,5 +1,6 @@
 import React from "react";
 import homeImg from "../assets/Images/home-main-svg.svg";
+import myImg from "../assets/Images/aman.jfif";
 import ContactIcons from "../components/Icons/ContactIcons";
 import ContactITems from "./Contents/ContactITems";
 const Home = () => {
@@ -48,7 +49,7 @@ const Home = () => {
               </div>
               <div className="col-md-5 col-sm-12 d-flex justify-content-center align-items-center avatar-img">
                 <img
-                  src="https://media-exp1.licdn.com/dms/image/D4D03AQFDcHKzK57BMA/profile-displayphoto-shrink_400_400/0/1639419352264?e=1665014400&v=beta&t=f5FsbqLtpljYDBa7l5P25XmIz8aSgig9EvBZ77kRI0g"
+                  src= {myImg}
                   alt=""
                   className="img-fluid img-responsive"
                 />
