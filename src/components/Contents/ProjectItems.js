@@ -1,5 +1,15 @@
 const ProjectItems = [
   {
+    name: "Shopkart Ecommerce Web App",
+    imgLink: require("../Icons/Project-Images/shopkart-mern-app.png"),
+    link: "https://super-pear-sunglasses.cyclic.app/",
+  },
+  {
+    name: "Car Rental Website",
+    imgLink: require("../Icons/Project-Images/car-rental-website.png"),
+    link: "https://car-rental-gppe.onrender.com/",
+  },
+  {
     name: "React News App",
     imgLink: require("../Icons/Project-Images/react-news-app.png"),
     link: "https://react-news-ab99d5.netlify.app/",
@@ -13,12 +23,6 @@ const ProjectItems = [
     name: "Complete MERN App",
     imgLink: require("../Icons/Project-Images/the-mern-app.png"),
     link: "https://github.com/aman465320/The-MERN-App",
-  },
-
-  {
-    name: "Car Rental Website",
-    imgLink: require("../Icons/Project-Images/car-rental-website.png"),
-    link: "https://car-rental-gppe.onrender.com/",
   },
   {
     name: "Weather App",
