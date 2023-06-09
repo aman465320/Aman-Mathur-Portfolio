@@ -11,7 +11,7 @@ const Footer = () => {
               Developed by Aman Mathur
             </div>
             <div className="col-md-4 col-sm-12 footerCols my-1">
-              Copyright &#169; 2022
+              Copyright &#169; 2023
             </div>
             <div className="col-md-4 col-sm-12 footerCols my-1">
               <div className="row my-3 ">
