@@ -1,8 +1,19 @@
 const Skills = [
- 
   {
     name: "C++",
     link: "https://cdn.worldvectorlogo.com/logos/c.svg",
+  },
+  {
+    name: "Java",
+    link: "https://cdn.worldvectorlogo.com/logos/java-4.svg",
+  },
+  {
+    name: "Mysql",
+    link: "https://cdn.worldvectorlogo.com/logos/mysql-logo-pure.svg",
+  },
+  {
+    name: "Redis",
+    link: "https://cdn.worldvectorlogo.com/logos/redis.svg",
   },
   {
     name: "HTML",

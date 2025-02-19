@@ -20,8 +20,9 @@ const About = () => {
               <p style={{ fontSize: "1.2rem" }}>
                 Hello Everyone! I Am <span>Aman Mathur</span> from{" "}
                 <span>Jaipur , Rajasthan</span>
-                <br />I am an undergraduate pursuing Btech in Electronics and
-                Communications Engineering from IIIT Kota <br />
+                <br />A Software Development Engineer at Flipkart and a B.Tech
+                graduate from IIIT Kota. I have a passion for solving complex
+                problems and building scalable systems. <br />
                 <br />
                 <br />
                 My hobbies are

@@ -14,7 +14,7 @@ const Home = () => {
                 Hi There ! <span className="waving">👋🏻 </span>
                 <br />I Am <span>Aman Mathur </span> <br />
                 <div className="mt-5" style={{ fontSize: "55%" }}>
-                  An aspiring <span> Full stack developer</span>
+                  An aspiring <span> Software Engineer</span>
                 </div>
               </h1>
             </div>
@@ -29,28 +29,36 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="container intro-container my-3">
+        <div className="container intro-container my-1">
           <div className="container my-5">
-            <h2 className="intro-heading  mb-5 text-center">INTRODUCTION</h2>
+            <h2 className="intro-heading mb-5 text-center">INTRODUCTION</h2>
             <div className="row">
               <div className="col-md-7 col-sm-12 intro-description">
                 <p className="my-5">
-                  Hey everyone !! I am Aman Mathur , currently pursuing my Btech
-                  . I live in Jaipur , Rajasthan also known as Pink city.
+                  Hey everyone! I am Aman Mathur, a Software Development
+                  Engineer at Flipkart and a B.Tech graduate from IIIT Kota.
+                  Originally from Jaipur, Rajasthan—famously known as the Pink
+                  City—I have a passion for solving complex problems and
+                  building scalable systems.
                 </p>
                 <p>
-                  I have a deep interest in coding and building web Applications{" "}
+                  With expertise in backend development, I have worked on
+                  high-performance distributed systems, API auditing,
+                  Kubernetes, and authentication modules. I enjoy optimizing
+                  large-scale services, ensuring low-latency responses, and
+                  enhancing system observability.
                 </p>
                 <p className="my-5">
-                  I'm an aspiring web developer by day and science enthusiast by
-                  night. I love digging through scientific disccoveries , and I
-                  love to code in C++ and Javascript.
+                  Beyond work, I am an active competitive programmer with 1000+
+                  solved problems on LeetCode and CodeChef. I love tackling
+                  algorithmic challenges, experimenting with new technologies,
+                  and contributing to open-source projects.
                 </p>
               </div>
               <div className="col-md-5 col-sm-12 d-flex justify-content-center align-items-center avatar-img">
                 <img
-                  src= {myImg}
-                  alt=""
+                  src={myImg}
+                  alt="Aman Mathur"
                   className="img-fluid img-responsive"
                 />
               </div>

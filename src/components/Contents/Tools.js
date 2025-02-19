@@ -15,7 +15,18 @@ const Tools = [
     name: "Git",
     link: "https://cdn.worldvectorlogo.com/logos/git-icon.svg",
   },
-
+  {
+    name: "Grafana",
+    link: "https://cdn.worldvectorlogo.com/logos/grafana.svg",
+  },
+  {
+    name: "Kubernetes",
+    link: "https://cdn.worldvectorlogo.com/logos/kubernets.svg",
+  },
+  {
+    name: "Intellij",
+    link: "https://cdn.worldvectorlogo.com/logos/intellij-idea-1.svg",
+  },
 ];
 
 export default Tools;
